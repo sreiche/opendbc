@@ -36,14 +36,15 @@ BS_:
 BU_: XXX
 
 
-BO_ 134 NEW_MSG_1: 8 XXX
+BO_ 134 Steering: 8 XXX
+ SG_ NEW_SIGNAL_1 : 7|8@0+ (1,0) [0|255] "" XXX
 
 BO_ 162 NEW_MSG_2: 8 XXX
 
 BO_ 128 NEW_MSG_3: 8 XXX
 
 BO_ 143 Experimenting1: 8 XXX
- SG_ DontKnow_but_something : 32|16@1+ (.5,0) [0|65535] "" XXX
+ SG_ DontKnow_but_something : 32|16@1+ (0.5,0) [0|65535] "" XXX
 
 BO_ 256 NEW_MSG_5: 8 XXX
  SG_ NEW_SIGNAL_2 : 40|16@1+ (1,0) [0|65535] "" XXX
@@ -51,8 +52,8 @@ BO_ 256 NEW_MSG_5: 8 XXX
 
 BO_ 161 NEW_MSG_6: 8 XXX
 
-BO_ 262 NEW_MSG_7: 8 XXX
- SG_ NEW_SIGNAL_1 : 23|16@0+ (1,0) [0|65535] "" XXX
+BO_ 262 Brake: 8 XXX
+ SG_ Brake_Pressure : 7|16@0+ (1,0) [0|65535] "" XXX
 
 BO_ 285 NEW_MSG_8: 8 XXX
  SG_ Brake_Pressure_3 : 32|8@1+ (1,0) [0|255] "" XXX
@@ -88,3 +89,6 @@ BO_ 259 Speed: 8 XXX
 
 BO_ 129 NEW_MSG_9: 8 XXX
  SG_ NEW_SIGNAL_1 : 39|8@0+ (1,0) [0|255] "" XXX
+
+BO_ 261 Throttle: 8 XXX
+ SG_ Throttle_Pedal_Pst : 48|8@1+ (1,0) [0|255] "" XXX
