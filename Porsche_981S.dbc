@@ -54,7 +54,7 @@ BO_ 161 NEW_MSG_6: 8 XXX
 
 BO_ 262 Brake: 8 XXX
  SG_ Brake_Switch : 61|1@0+ (1,0) [0|1] "on-off" XXX
- SG_ Brake_Pressure : 23|16@0+ (0,-1552) [0|65535] "" XXX
+ SG_ Brake_Pedal_Pressure : 16|16@1+ (1,0) [0|65535] "" XXX
 
 BO_ 285 NEW_MSG_8: 8 XXX
  SG_ Brake_Pressure_3 : 32|8@1+ (1,0) [0|255] "" XXX
